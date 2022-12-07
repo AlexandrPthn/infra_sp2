@@ -12,7 +12,8 @@ cd infra_sp2/infra/
 ``` 
 - Запуск приложения с помощь контейнеризации Docker:
 
-Если Docker еще не установлен скачайте и установите его по ссылке *https://www.docker.com/products/docker-desktop*
+Если Docker еще не установлен скачайте и установите его по ссылке:
+*https://www.docker.com/products/docker-desktop*
 Так как переменные базы данных подгружаются из скрытого файла .env, переименуйте файл .env.example в .env и в нем же установите свой пароль для доступа к БД.
 ```
 cp .env.example .env
